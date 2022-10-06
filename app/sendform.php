@@ -1,7 +1,8 @@
 <?php
 session_start();
 
-$_SESSION["formInfo"] = "No se pudó enviar el formulario";
+// TODO: Put data in a separate hidden file
+$_SESSION["formInfo"] = "No se pudó enviar el formulario"; 
 //$toEMail = "lisa.veltman@gmail.com";
 $toEMail = "lucianatorrents@icab.cat";
 
